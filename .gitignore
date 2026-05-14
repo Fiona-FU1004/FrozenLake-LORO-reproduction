@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and local config
+.env
+.venv/
+venv/
+wandb/
+.vscode/
+.idea/
+
+# OS / notebook temporary files
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.history/
+
+# Build outputs
+build/
+dist/
+*.egg-info/
+
+# Reinforcement-learning outputs
+d3rlpy_logs/
+full_results/
+models/
+gemini/output/models/
+gemini/output/cache/
+gemini/output/figs/
+figs/generated/
+figs/*.pdf
+!figs/FrozenLake*.pdf
+
+# Large generated data and archives
+*.d3
+*.pkl
+*.pt
+*.pth
+*.zip
+*.tgz
+*.tar.gz
+
+# Keep source directories, but avoid committing generated dataset blobs.
+data/old/
+data/*.zip
+
+# External dependency snapshot; install it from upstream if needed.
+atari-representation-learning-master/
+atari-representation-learning-master.zip
