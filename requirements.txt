@@ -1,12 +1,18 @@
-d3rlpy
+numpy==1.26.4
+matplotlib==3.10.9
+scipy==1.12.0
 
-torch == 2.2.1
+gymnasium==0.29.1
+pygame
 
-gymnasium == 0.29.1
+torch==2.2.1
+torchvision==0.17.1
+torchaudio==2.2.1
 
-scipy == 1.12.0
-wandb == 0.16.4
+transformers==4.38.2
+datasets==4.8.4
+peft==0.7.1
+accelerate==0.21.0
+bitsandbytes==0.40.2
 
-matplotlib
-
-openai
+tqdm==4.67.3
